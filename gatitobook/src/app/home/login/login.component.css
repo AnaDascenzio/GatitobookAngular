@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.form-control {
+    border-radius: 100px; 
+    width: 100%;/* Define o arredondamento das bordas */
+    /* animation: slide 5s infinite alternate; */
+}
+
+/* @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(100vw - 100%));
+    }
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+
+.btn {
+    width: 100%; /* Faz com que o botão tenha a mesma largura dos campos */
+    border-radius: 100px; /* Define o arredondamento das bordas */
+    /* animation: rotate 2s infinite linear; */
+}
+
+/* @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
